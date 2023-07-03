@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #0F044C;
+    --secondary-color: #141E61;
+    --tertiary-color: #787A91;
+    --soft-blue: #4EB5F1;
+    --neutral-color: #EEEEEE;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+}
+
+h1 {
+    margin-top: .25em;
+    font-size: 4em;
+}
+
+input {
+    padding: .1em;
+    background-color: transparent;
+    border: 2px solid var(--tertiary-color);
+    color: var(--neutral-color);
+    font-size: large;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    background-color: var(--secondary-color);
+    margin-top: 2em;
+    width: 100%;
+    border-color: var(--tertiary-color);
+}
+
+table, th, td {
+    border: 1px solid var(--tertiary-color);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--tertiary-color);
+    border-collapse: collapse;
+}
+
+th.actions {
+    width: 35%;
+}
+
+th.description {
+    width: 65%;
+}
+
+thead, tr {
+    width: 100%;
+}
+
+button {
+    margin: .25em;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: var(--soft-blue);
+    text-align: center;
+    transition: all 0.2s;
+    border-color: black;
+}
+
+button:hover {
+    background-color: #4095C6;
+}
+
+.main-container {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--tertiary-color);
+    padding: 1em 4em 4em 4em;
+    margin-top: 4em;
+    width: 50%;
+}

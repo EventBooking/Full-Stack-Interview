@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\allen.glass\\Documents\\Interview\\dotnet\\StudentApi\\StudentApi\\StudentApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\allen.glass\\Documents\\Interview\\dotnet\\StudentApi\\StudentApi\\StudentApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\allen.glass\\Documents\\Interview\\dotnet\\StudentApi\\StudentApi\\StudentApi.csproj",
+        "projectName": "StudentApi",
+        "projectPath": "C:\\Users\\allen.glass\\Documents\\Interview\\dotnet\\StudentApi\\StudentApi\\StudentApi.csproj",
+        "packagesPath": "C:\\Users\\allen.glass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\allen.glass\\Documents\\Interview\\dotnet\\StudentApi\\StudentApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\allen.glass\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ZjZsr97PlOpnCOMbp4htfsEdselZQBeXM3bKEEzV9XvkYkf2Ya/api": {},
+          "https://nuget.pkg.github.com/EventBooking/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
