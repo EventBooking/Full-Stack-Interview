@@ -4,7 +4,7 @@
 ### Prompt: 
 A developer on your team who has never worked with C# before has committed code that needs to be reviewed. The code they committed contains a .NET API that pushes and pulls Student data. The new developer has asked that you review StudentController.cs, StudentService.cs, and StudentRepository to see if there is anything that should be redone.
 ### Instructions: 
-Without refactoring, please review StudentController.cs, StudentService.cs and StudentRepository.cs and be prepared to give a peer review on each. Focus on functionality, best practices, and the formatting of the code. Approach this assignment as a code reviewer. Prepare your review feedback in whichever way you'd like as we will be collectively reviewing your feedback during the technical interview.
+Without refactoring, please review StudentController.cs, StudentService.cs and StudentRepository.cs and be prepared to give a peer review on each. Focus on functionality, best practices, and the formatting of the code. Approach this assignment as a code reviewer. Prepare your review feedback in whichever way you'd like as we will be collectively reviewing your feedback during the technical interview. Please do not submit a pull request as this is a public repo that others will use.
 
 ### Sample questions you may be asked:
 1.	If any, what are your critiques on formatting and code layout?
